@@ -1,0 +1,150 @@
+.loader-bg {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.job-item-details-page {
+  padding: 20px 80px;
+  font-family: Roboto;
+  background-color: #000000;
+  min-height: 100vh;
+  height: 100%;
+}
+.job-item-details-container {
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 10px;
+  margin: auto;
+}
+.description-and-visit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visit-link {
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 16px;
+}
+.job-details-section-subtitle {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  list-style-type: none;
+  padding: 0px;
+}
+.skills-list-item {
+  display: flex;
+  align-items: center;
+  width: 136px;
+  gap: 16px;
+  margin-bottom: 34px;
+}
+.skill-logo {
+  width: 50px;
+  height: 50px;
+}
+.skill-name {
+  color: #f8fafc;
+  font-size: 14px;
+}
+.life-at-company-container {
+  display: flex;
+  gap: 20px;
+}
+.life-at-company-description {
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 24px;
+}
+.life-at-company-img {
+  width: 300px;
+}
+.similar-jobs-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  list-style-type: none;
+  padding: 0px;
+}
+.similar-jobs-list-item {
+  width: 40%;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.similar-job-title {
+  color: #ffffff;
+  font-size: 16px;
+}
+.similar-job-description {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.failure-view-img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.failure-view-title {
+  font-size: 24px;
+  color: #ffffff;
+}
+.failure-view-description {
+  font-size: 16px;
+  color: #ffffff;
+}
+.retry-button {
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .job-item-details-page {
+    padding: 20px;
+  }
+  .job-item-details-container {
+    padding: 20px;
+  }
+  .loader-bg {
+    min-height: 16vh;
+  }
+  .failure-view-img {
+    width: 80%;
+  }
+  .failure-view-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .failure-view-description {
+    font-size: 15px;
+  }
+  .life-at-company-container {
+    flex-direction: column;
+  }
+  .similar-jobs-list-container {
+    flex-direction: column;
+  }
+  .similar-jobs-list-item {
+    width: 100%;
+  }
+  .life-at-company-img {
+    width: 100%;
+  }
+}
